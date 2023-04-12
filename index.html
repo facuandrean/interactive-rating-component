@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta interactiva de rating</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="descripcion" content="Tarjeta interactiva de rating">
+  <link rel="canonical" href="https://facuandrean.github.io/portafolio-cv/">
+  <link rel="shortcut icon" href="https://facuandrean.github.io/portafolio-cv/assets/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://facuandrean.github.io/portafolio-cv/assets/favicon.png">
+  <meta name="theme-color" content="#D90062">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:title" name="twitter:title" content="Portafolio CV - Facundo Andrean">
+  <meta property="og:image" name="twitter:image" content="https://facuandrean.github.io/portafolio-cv/assets/hero-image-4.jpg">
+  <meta property="og:url" name="twitter:url" content="https://facuandrean.github.io/portafolio-cv/">
+  <meta property="og:description" name="twitter:description" content="Hola, bienvenid@s a mi Portafolio Profesional, soy Facundo Andrean, Desarrollador Web Frontend">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <form class="container centrar-column" id="form">
+    <figure class="container-icon">
+      <img src="images/icon-star.svg" alt="icon-star">
+    </figure>
+    <div class="container-text">
+      <div class="container-text-h1">How did we do?</div>
+      <div class="container-text-h2">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</div>
+    </div>
+    <div class="container-rating">
+      <input type="button" value="1" class="container-rating-number">
+      <input type="button" value="2" class="container-rating-number">
+      <input type="button" value="3" class="container-rating-number">
+      <input type="button" value="4" class="container-rating-number">
+      <input type="button" value="5" class="container-rating-number">
+    </div>
+    <input type="submit" value="SUBMIT" class="input-submit" id="form-submit">
+  </form>
+  <div class="modal display-none" id="modal">
+    <!-- <div class="container centrar-column">
+
+    </div> -->
+  </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  You selected <!-- Add rating here --> out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!
+
+  <!-- Thank you state end -->
+
+  
+  <footer class="footer">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://facuandrean.github.io/portafolio-cv/">Facundo Andrean</a>.
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
